@@ -1,0 +1,30 @@
+.litress_container {
+    background-color: #F5F5F7;
+    color: black;
+    min-height: 699px;
+    margin-top: 83px;
+    
+}
+.litress_aboutLitress {
+    font-size: 44px;
+    font-weight: 600;
+
+}
+.litres_firstRow {
+    padding-top: 83px;
+}
+.wrapp-litres_book-1 {
+    background-color: white;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 369px;
+}
+.litres_twoRow {
+    padding-top: 45px;
+}
+.litress-textBook {
+    font-size: 16px;
+    font-weight: 500;
+}

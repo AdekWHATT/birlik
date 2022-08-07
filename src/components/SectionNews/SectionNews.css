@@ -1,0 +1,34 @@
+.container-news {
+    margin-top: 91px;
+    color: black;
+} 
+.sec_news {
+    margin-top: 91px;
+}
+.sec_news__titleText {
+    font-size: 44px;
+    font-weight: bold;
+}
+.news-top__left-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-news_bigCard {
+    border: 1px solid silver;
+}
+.card-newsP {
+    font-size: 16px;
+    padding-top: 10px;
+}
+.card-news_smallCard {
+    border: 1px solid silver;
+}
+.news-smDate {
+ margin: 0;
+}
+.card-title-sm {
+    font-size: 14px;
+}
+.sec_news__all-new-link {
+    text-decoration: none;
+}

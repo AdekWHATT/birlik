@@ -1,0 +1,21 @@
+
+.m-info-right_block {
+    
+}
+.m-info-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.m-info {
+ margin-top: 100px;   
+}
+.m-info-container {
+    margin-top: 100px;
+    background-color: #F5F5F7;
+    min-height: 496px;
+    color: black;
+}
+.m-info_top-block__text {
+    font-size: 16px;
+}

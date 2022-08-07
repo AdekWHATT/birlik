@@ -1,0 +1,23 @@
+.hr {
+    color: black;
+    height: 1px;
+}
+.goals-title {
+    color: black;
+}
+.goals-title {
+    font-size: 44px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.card-items {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card-big-items {
+    color: #09622F;
+    font-size: 40px;
+    font-weight: bold;
+    align-self: flex-end;
+}

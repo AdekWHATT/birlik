@@ -1,0 +1,48 @@
+.menu-list a:hover {
+color: yellow;
+}
+.navbar-container {
+    background-color: transparent;
+}
+.brand-wrapp__text {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.menu-list a:hover {
+    text-decoration: underline;
+}
+.play-wrapp {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #09622F;
+}
+.m-info-right_block {
+    
+}
+.m-info-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.m-info {
+ margin-top: 100px;   
+}
+.m-info-container {
+    background-color: #F5F5F7;
+    min-height: 496px;
+}
+.m-info_top-block__text {
+    font-size: 16px;
+}

@@ -1,0 +1,14 @@
+.news-page__title {
+    color: black;
+    font-size: 44px;
+    font-weight: bold;
+}
+.news-page__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.news-page__footer-text {
+    font-size: 16px;
+    color: black;
+}

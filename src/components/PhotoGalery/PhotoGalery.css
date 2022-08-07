@@ -1,0 +1,22 @@
+body {
+    color: black;
+}
+.container-photogalery {
+    margin-top: 82px;
+}
+.gallery__title {
+    color: black;
+    font-size: 44px;
+    font-weight: bold;
+}
+.sec_gallery__link {
+    text-decoration: none;
+}
+.sec_gallery__link:hover {
+    text-decoration: underline;
+}
+.card-photogalery__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
