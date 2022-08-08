@@ -9,12 +9,11 @@ import YaMap from '../../components/YaMap/YaMap'
 import MainSections from '../../components/MainSections/MainSections'
 import Footer from '../../components/Footer/Footer'
 import Sodruz from '../../components/Sodruz/Sodruz'
-import PleerTop from '../../components/PleerTop/PleerTop'
 const Main = () => {
   return (
     <>
     <MainSections/>
-    <PleerTop/>
+   
     <SectionManInfo/>
     <SectionNews/>
     <Litress/>
