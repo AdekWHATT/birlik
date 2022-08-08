@@ -19,3 +19,36 @@
 .m-info_top-block__text {
     font-size: 16px;
 }
+
+
+/* Стили для больших экранов (дисплей максимум 1199 пикселей) */
+@media (max-width: 1199px) { 
+    .m-info-text {
+        font-size: 16px !important;
+    }
+ }
+
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) { 
+    .m-info-text {
+        font-size: 14px !important;
+    }
+    .m-info_top-block__text {
+        font-size: 12px !important;
+    }
+    .section_main-img {
+        display: flex;
+        justify-content: center;
+    }
+    .section_main-text {
+        padding-top: 20px;
+    }
+ }
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) { 
+    
+ }
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) {  }

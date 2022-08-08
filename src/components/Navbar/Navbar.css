@@ -46,3 +46,31 @@ ul {
 .m-info_top-block__text {
     font-size: 16px;
 }
+.dropdown-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.dropdown-menu {
+    width: 40%;
+}
+/* Стили для больших экранов (дисплей максимум 1199 пикселей) */
+@media (max-width: 1199px) { 
+    .brand-wrapp__text {
+        font-size: 13px !important;
+    }
+ }
+
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) { 
+    .menu-list {
+        padding-top: 20px;
+    }
+ }
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) { }
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) { }

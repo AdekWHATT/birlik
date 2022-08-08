@@ -7,7 +7,7 @@ const Sodruz = () => {
             <div className='container container-sodruz'>
                 <div className='row'>
                     <div className='col-12'>
-                        <img className='img-fluid' src={sodruz} />
+                        <img className='img-fluid text-center w-100' src={sodruz} />
                         <div className='mt-5 px-3 pb-3'>
                             <span className='sodruz-text'>Гейдар Алиев заложил основы азербайджанской диаспоры, не только в России, но и во всем мире. Развитие связей азербайджанцев мира с их исторической Родиной, сохранение национальной самобытности соотечественников, использование потенциала диаспоры для более надежной защиты национальных интересов, расширение связей диаспор, защите их культурных и политических прав.</span>
                         </div>

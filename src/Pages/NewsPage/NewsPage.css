@@ -7,8 +7,12 @@
     font-size: 18px;
     font-weight: 400;
     color: black;
+    font-weight: bold;
 }
 .news-page__footer-text {
     font-size: 16px;
     color: black;
+}
+.card {
+    border-radius: none !important;
 }

@@ -18,9 +18,9 @@ const VideoGallery = () => {
                     </div>
                 </div>
                 <div className='row mt-5'>
-                    <div className='col-md-4'>
+                    <div className='col-lg-4'>
                         <div className='card-photogalery'>
-                            <img src={video1} />
+                            <img className='img-fluid' src={video1} />
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Поздравление ветеранов с Днем Победы</span>
 
@@ -28,9 +28,9 @@ const VideoGallery = () => {
                         </div>
                     </div>
 
-                    <div className='col-md-4'>
+                    <div className='col-lg-4'>
                         <div className='card-photogalery'>
-                            <img src={video2} />
+                            <img className='img-fluid' src={video2} />
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Память жертв Ходжалинских событий 2020 года</span>
 
@@ -38,9 +38,9 @@ const VideoGallery = () => {
                         </div>
                     </div>
 
-                    <div className='col-md-4'>
+                    <div className='col-lg-4'>
                         <div className='card-photogalery'>
-                            <img src={video3} />
+                            <img className='img-fluid' src={video3} />
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>День памяти воинов интернационалистов</span>
 

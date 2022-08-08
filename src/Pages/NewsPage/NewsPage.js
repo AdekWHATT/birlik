@@ -3,7 +3,7 @@ import MainSections from '../../components/MainSections/MainSections';
 import Footer from '../../components/Footer/Footer'
 import './NewsPage.css'
 import images from '../../images/mpnew.svg'
-const  NewsPage = () => {
+const NewsPage = () => {
   return (
     <>
       <MainSections />
@@ -15,18 +15,22 @@ const  NewsPage = () => {
         </div>
         <div className='row mt-4 g-4'>
           {data.map(i =>
-            <div className='col-lg-6 border'>
-              <img src={i.images}/>
+            <div className='col-sm-12 col-lg-6'>
+              <div className='card '>
+              <img className='' src={i.images} />
+              <div className='card-body'>
               <span className='news-page__text'>{i.name}</span>
-              <div className=''>
-              <span className='news-page__footer-text'>{i.descripticons}</span>
-              <span className='news-date'>{i.date}</span>
+              <div className='pt-3 d-flex align-items-end'>
+                <span className='news-page__footer-text'>{i.descripticons}</span>
+                <span className='news-date'>{i.date}</span>
+                </div>
               </div>
+            </div>
             </div>
           )}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }
@@ -99,7 +103,5 @@ const data = [{
   date: '07.08.2022',
   descripticons: 'Председателю Местной общественной организации Азербайджанской национально-культурной автономии города Лениногорск и Лениногорского района Республики Татарстан «Бирлик» Рамизу Мамедову вручено',
 },
-
-
 
 ]

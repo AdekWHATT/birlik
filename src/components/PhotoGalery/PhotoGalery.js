@@ -19,32 +19,36 @@ const PhotoGalery = () => {
                     </div>
                 </div>
                 <div className='row mt-5'>
-                    <div className='col-md-4'>
+                    <div className='col-lg-4'>
                         <div className='card-photogalery'>
-                            <img src={image1} />
+                            <div className=''>
+                            <img className='img-fluid' src={image1} />
+                            </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Делегация общественного объединения «Татарстан» посетила Лениногорск</span>
-
                             </div>
                         </div>
                     </div>
-
-                    <div className='col-md-4'>
+                    <div className='col-lg-4'>
                         <div className='card-photogalery'>
-                            <img src={image2} />
+                        <div className=''>
+                            <img className='img-fluid' src={image2} />
+                            </div>
                             <div className='pt-3'>
+                               
                                 <span className='card-photogalery__text'>В Лениногорске почтили память жертв ходжалинской трагедии</span>
-
                             </div>
                         </div>
                     </div>
-
-                    <div className='col-md-4'>
+                    <div className='col-lg-4'>
                         <div className='card-photogalery'>
-                            <img src={image3} />
+                            <div className=''>
+
+                           
+                            <img className='img-fluid' src={image3} />
+                            </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Наша общая победа</span>
-
                             </div>
                         </div>
                     </div>

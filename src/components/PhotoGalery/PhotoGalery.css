@@ -20,3 +20,26 @@ body {
     font-weight: 500;
     color: black;
 }
+/* Стили для больших экранов (дисплей максимум 1199 пикселей) */
+@media (max-width: 1199px) {
+
+ }
+
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) { 
+    .card-photogalery {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+ }
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) { 
+
+ }
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) { 
+
+}
