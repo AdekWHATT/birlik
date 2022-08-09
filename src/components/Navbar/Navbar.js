@@ -8,15 +8,15 @@ const Navbar = () => {
     <>
       <div className="container navbar-container mt-3 d-none d-sm-block">
         <div className="row">
-          <div class="col-sm-12 col-lg-5">
-            <div class="logo-wr d-flex">
+          <div className="col-sm-12 col-lg-5">
+            <div className="logo-wr d-flex">
               <a href='/'><img className='img-md-fluid' src={logo} alt="Бирлик" /></a>
 
-              <span class="brand-wrapp__text align-self-center px-3">МОО Азербайджанская НКА<br />г.Лениногорск,Лениногорского района «Бирлик» (Единство)</span>
+              <span className="brand-wrapp__text align-self-center px-3">МОО Азербайджанская НКА<br />г.Лениногорск,Лениногорского района «Бирлик» (Единство)</span>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-7 align-self-center">
-            <ul class="menu-list d-flex justify-content-between">
+          <div className="col-sm-12 col-lg-7 align-self-center">
+            <ul className="menu-list d-flex justify-content-between">
               <NavLink to='/diaspora'>
                 <li>Диаспора</li>
               </NavLink>

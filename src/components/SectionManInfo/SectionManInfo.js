@@ -19,7 +19,7 @@ const SectionManInfo = () => {
                   национально – культурная автономия
                   города Лениногорск и Лениногорского района Республики Татарстан «Бирлик»
                 </span>
-                <img src={fly} alt="Fly" />
+                <img className='d-none d-sm-block' src={fly} alt="Fly" />
               </div>
             </div>
             <div class="m-info_top-block pt-4 px-2">
