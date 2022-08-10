@@ -1,6 +1,6 @@
 import React from 'react'
 import './SectionNews.css'
-import newsleft from '../../images/news-left.svg'
+import newsleft from '../../images/mp-new.jpg'
 import newssm1 from '../../images/newssm1.svg'
 import newssm2 from '../../images/newssm2.svg'
 import newssm3 from '../../images/newssm3.svg'
@@ -21,10 +21,10 @@ const SectionNews = () => {
                     </div>
                 </div>
                 <div className="row mt-3 g-3">
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         
                             <div className="card card-my">
-                                <img src={newsleft} className="card-img-top" alt="..." />
+                                <img src={newsleft} className="card-img-top-g img-fluid" alt="..." />
                                 <div className="card-body">
                                     <span className="card-text news-top__left-title">Руководителю Азербайджанской
                                         диаспоры Лениногорского
@@ -38,7 +38,7 @@ const SectionNews = () => {
                             </div>
                         
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-7">
                         <div className="row row-cols-2 g-3">
                             <div className="col">
                                 <div className="card h-100">

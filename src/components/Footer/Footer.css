@@ -8,6 +8,9 @@
     color: white;
    
 }
+.footer_hr {
+    color: white;
+}
 /* Стили для больших экранов (дисплей максимум 1199 пикселей) */
 @media (max-width: 1199px) { }
 

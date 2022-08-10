@@ -43,7 +43,7 @@ const Footer = () => {
                                     <Outlet />
                                 </div>
                             </div>
-                            <hr />
+                            <hr className='footer_hr' />
                             <div className='row'>
                                 <div className='col-lg-6 col-sm-12'>
                                     <span className='allr_text'>2022 © Все права защищены</span>

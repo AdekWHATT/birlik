@@ -11,7 +11,7 @@ const SectionManInfo = () => {
           <div class="col-lg-4 section_main-img  text-center">
             <img class="img-fluid pt-3" src={mamedov} alt="" />
           </div>
-          <div class="col-lg-8 section_main-text">
+          <div class="col-lg-8 section_main-text mt-3">
             <div class="m-info-right_block px-3">
               <div class="m-info-right_top d-flex justify-content-center">
                 <img className='d-none d-sm-block' src={vert} alt="" />
@@ -32,7 +32,7 @@ const SectionManInfo = () => {
                   Лениногорск и Лениногорского района Республики Татарстан «Бирлик» («Единство»).
                 </span>
               </div>
-              <div class="m-info_top-block_ pt-3">
+              <div class="m-info_top-block_ pt-3 pb-4">
                 <span class="m-info_top-block__text">
                   Учредителем и председателем организации является Рамиз Мамедов. Под руководством и
                   непосредственном финансовом участии Рамиза Мамедова азербайджанская диаспора на

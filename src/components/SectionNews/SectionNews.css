@@ -1,9 +1,11 @@
+ 
 .card {
     border-radius: 0 !important;
    
 }
-.card-my img {
-
+.card-my{
+    height: 706px !important;
+    /* height: 444px; */
 }
 .card img {
     border-radius: 0 !important;
@@ -46,3 +48,5 @@
 .sec_news__all-new-link:hover {
     color: #D51A1A;
 }
+ 
+

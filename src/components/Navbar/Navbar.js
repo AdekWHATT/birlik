@@ -1,8 +1,12 @@
-import React from 'react'
-import './Navbar.css'
-import { NavLink, Outlet, Link } from "react-router-dom";
-import logo from '../../images/logo.svg'
+import React from 'react';
+import './Navbar.css';
+import { NavLink, Link } from "react-router-dom";
+import logo from '../../images/logo.svg';
 import Dropdown from 'react-bootstrap/Dropdown';
+import menuburger from '../../images/menuburger.svg';
+import menuburger1 from '../../images/menu-burger.png';
+import menu from '../../images/menu.png';
+
 const Navbar = () => {
   return (
     <>
@@ -43,8 +47,8 @@ const Navbar = () => {
         <div className='row pt-3'>
           <div className='col-12'>
             <Dropdown>
-              <Dropdown.Toggle>
-                Меню
+              <Dropdown.Toggle variant=''>
+               <img src={menu} width='50px' height='50px'/>
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item><NavLink to='/diaspora'>

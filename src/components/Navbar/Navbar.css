@@ -56,6 +56,9 @@ ul {
 .dropdown-menu {
     width: 90%;
 }
+.dropdown {
+    color: transparent;
+}
 /* Стили для больших экранов (дисплей максимум 1199 пикселей) */
 @media (max-width: 1199px) { 
     .brand-wrapp__text {

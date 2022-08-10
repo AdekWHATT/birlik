@@ -2,7 +2,7 @@ import React from 'react';
 import MainSections from '../../components/MainSections/MainSections';
 import Footer from '../../components/Footer/Footer'
 import './NewsPage.css'
-import images from '../../images/mpnew.svg'
+import images from '../../images/mp-new.jpg'
 const NewsPage = () => {
   return (
     <>
@@ -29,6 +29,21 @@ const NewsPage = () => {
             )
           }
 
+        </div>
+      </div>
+      <div className='container mt-5'>
+        <div className='row'>
+          <div className='col-12'>
+          <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="#">Предыдущая</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Следующая</a></li>
+  </ul>
+</nav>
+          </div>
         </div>
       </div>
       <Footer />
