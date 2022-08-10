@@ -6,7 +6,7 @@
     z-index: -1;
   } */
   .main-container {
-    background: url('../../images/bg.webp') center center/cover no-repeat;  
+    background: url('../../images/bg.jpg') center center/cover no-repeat;  
     min-height: 800px;
      /* height: 100vh; */
     /* width: 100%;

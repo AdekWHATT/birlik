@@ -1,3 +1,14 @@
+.card {
+    border-radius: 0 !important;
+   
+}
+.card-my img {
+
+}
+.card img {
+    border-radius: 0 !important;
+    
+}
 .container-news {
     margin-top: 91px;
     color: black;

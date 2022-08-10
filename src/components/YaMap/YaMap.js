@@ -5,7 +5,7 @@ const YaMap = () => {
         
         <>
             <div className='container-fluid container-yamaps mt-5 pt-5'>
-                <iframe  src="https://yandex.ru/map-widget/v1/?um=constructor%3A99bc97067d1e596b65d144726b95ee554400d2679eb80cd88c2fc4753df7f9e9&amp;source=constructor" width="100%" height="670" frameborder="0"></iframe>
+                <iframe  src="https://yandex.ru/map-widget/v1/?um=constructor%3A99bc97067d1e596b65d144726b95ee554400d2679eb80cd88c2fc4753df7f9e9&amp;source=constructor" width="100%" height="670" frameBorder="0"></iframe>
                 <div className='yamaps-card '>
                     <div className='yamaps-cardContainer d-flex flex-column'>
                         <span className='yamaps-card__topText'>Наш адрес</span>

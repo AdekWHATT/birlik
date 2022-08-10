@@ -22,25 +22,27 @@ const SectionNews = () => {
                 </div>
                 <div className="row mt-3 g-3">
                     <div className="col-md-6">
-                        <div className="card card-my">
-                            <img src={newsleft} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <span className="card-text news-top__left-title">Руководителю Азербайджанской
-                                    диаспоры Лениногорского
-                                    района вручено Благодарственное письмо</span>
-                                <p class="card-newsP">Председателю Местной общественной
-                                    организации Азербайджанской национально-культурной автономии города Лениногорск
-                                    и Лениногорского района Республики Татарстан «Бирлик» Рамизу Мамедову
-                                    вручено...</p>
-                                <p className="card-text text-end"><small class="text-muted">03.07.2022</small></p>
+                        
+                            <div className="card card-my">
+                                <img src={newsleft} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <span className="card-text news-top__left-title">Руководителю Азербайджанской
+                                        диаспоры Лениногорского
+                                        района вручено Благодарственное письмо</span>
+                                    <p class="card-newsP">Председателю Местной общественной
+                                        организации Азербайджанской национально-культурной автономии города Лениногорск
+                                        и Лениногорского района Республики Татарстан «Бирлик» Рамизу Мамедову
+                                        вручено...</p>
+                                    <p className="card-text text-end"><small class="text-muted">03.07.2022</small></p>
+                                </div>
                             </div>
-                        </div>
+                        
                     </div>
                     <div className="col-md-6">
-                        <div className="row row-cols-2 g-4">
+                        <div className="row row-cols-2 g-3">
                             <div className="col">
                                 <div className="card h-100">
-                                    <img src={newssm1} className="card-img-top" alt="..." />
+                                    <img src={newssm1} className="card-img-top h-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title-sm">Представители КС МААР Рамиль Алиев и Гасым Керимов
                                             стали

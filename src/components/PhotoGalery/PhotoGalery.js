@@ -18,7 +18,7 @@ const PhotoGalery = () => {
                         </div>
                     </div>
                 </div>
-                <div className='row mt-5'>
+                <div className='row mt-4'>
                     <div className='col'>
                         <div className='card-photogalery'>
                             <div className=''>
@@ -35,7 +35,6 @@ const PhotoGalery = () => {
                             <img className='' src={image2} />
                             </div>
                             <div className='pt-3'>
-                               
                                 <span className='card-photogalery__text'>В Лениногорске почтили память жертв ходжалинской трагедии</span>
                             </div>
                         </div>
@@ -43,8 +42,6 @@ const PhotoGalery = () => {
                     <div className='col'>
                         <div className='card-photogalery'>
                             <div className=''>
-
-                           
                             <img className='' src={image3} />
                             </div>
                             <div className='pt-3'>

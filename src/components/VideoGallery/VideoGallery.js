@@ -1,12 +1,13 @@
 import React from 'react'
 import './VideoGallery.css'
-import video1 from '../../images/gallery/video1.svg'
-import video2 from '../../images/gallery/video2.svg'
-import video3 from '../../images/gallery/video3.svg'
+import video1 from '../../images/gallery/video1.svg';
+import video2 from '../../images/gallery/video2.svg';
+import video3 from '../../images/gallery/video3.svg';
+import playvideo from '../../images/play_video.svg';
 const VideoGallery = () => {
-  return (
-   <>
-   <div class="container container-photogalery">
+    return (
+        <>
+            <div class="container container-photogalery">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-between align-items-center">
                         <div class="gallery__title">
@@ -20,37 +21,43 @@ const VideoGallery = () => {
                 <div className='row mt-5'>
                     <div className='col-lg-4'>
                         <div className='card-photogalery'>
-                            <img className='img-fluid' src={video1} />
+                            <div className='img-play_v'>
+                                <img className='img-fluid' src={video1} />
+                                <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
+                            </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Поздравление ветеранов с Днем Победы</span>
-
                             </div>
                         </div>
                     </div>
 
                     <div className='col-lg-4'>
                         <div className='card-photogalery'>
+                        <div className='img-play_v'>
                             <img className='img-fluid' src={video2} />
+                            <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
+                            </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Память жертв Ходжалинских событий 2020 года</span>
-
                             </div>
                         </div>
                     </div>
 
                     <div className='col-lg-4'>
                         <div className='card-photogalery'>
+                        <div className='img-play_v'>
                             <img className='img-fluid' src={video3} />
+                            <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
+                            </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>День памяти воинов интернационалистов</span>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-   </>
-  )
+        </>
+    )
 }
 
 export default VideoGallery
