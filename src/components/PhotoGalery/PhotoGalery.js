@@ -24,7 +24,7 @@ const PhotoGalery = () => {
                             <div className=''>
                                 <img className='w-100' src={image1} />
                             </div>
-                            <div className='pt-3'>
+                            <div className='pt-1 pb-3'>
                                 <span className='card-photogalery__text'>Делегация общественного объединения «Татарстан» посетила Лениногорск</span>
                             </div>
                         </a>
@@ -34,7 +34,7 @@ const PhotoGalery = () => {
                             <div className=''>
                                 <img className='w-100' src={image2} />
                             </div>
-                            <div className='pt-3'>
+                            <div className='pt-1 pb-3'>
                                 <span className='card-photogalery__text'>В Лениногорске почтили память жертв ходжалинской трагедии</span>
                             </div>
                         </a>
@@ -44,7 +44,7 @@ const PhotoGalery = () => {
                             <div className=''>
                                 <img className='w-100' src={image3} />
                             </div>
-                            <div className='pt-3'>
+                            <div className='pt-1 pb-3'>
                                 <span className='card-photogalery__text'>Наша общая победа</span>
                             </div>
                         </a>

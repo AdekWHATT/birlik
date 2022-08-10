@@ -4,7 +4,7 @@ import video1 from '../../images/gallery/video1.svg';
 import video2 from '../../images/gallery/video2.svg';
 import video3 from '../../images/gallery/video3.svg';
 import playvideo from '../../images/play_video.svg';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const VideoGallery = () => {
     return (
         <>
@@ -21,39 +21,39 @@ const VideoGallery = () => {
                 </div>
                 <div className='row mt-5'>
                     <div className='col-lg-4'>
-                        <div className='card-photogalery'>
+                        <a href='/' className='card-photogalery'>
                             <div className='img-play_v'>
                                 <img className='w-100' src={video1} />
-                                <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
+                                <a className='img-play_images' href='#'><img src={playvideo} /></a>
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Поздравление ветеранов с Днем Победы</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div className='col-lg-4'>
-                        <div className='card-photogalery'>
-                        <div className='img-play_v'>
-                            <img className='w-100' src={video2} />
-                            <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
+                        <a href='#' className='card-photogalery'>
+                            <div className='img-play_v'>
+                                <img className='w-100' src={video2} />
+                                <a className='img-play_images' href='#'><img src={playvideo} /></a>
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Память жертв Ходжалинских событий 2020 года</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div className='col-lg-4'>
-                        <div className='card-photogalery'>
-                        <div className='img-play_v'>
-                            <img className='w-100' src={video3} />
-                            <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
+                        <a href='#' className='card-photogalery'>
+                            <div className='img-play_v'>
+                                <img className='w-100' src={video3} />
+                                <a className='img-play_images' href='#'><img src={playvideo} /></a>
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>День памяти воинов интернационалистов</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -61,4 +61,4 @@ const VideoGallery = () => {
     )
 }
 
-export default VideoGallery
+export default VideoGallery;

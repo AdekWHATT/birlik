@@ -50,14 +50,14 @@ const PleerTop = () => {
                             <div className="row d-flex justify-content-between py-3">
                                 <div className="col d-flex justify-content-center align-items-center">
                                     <div className="play-wrapp d-flex justify-content-center align-items-center">
-                                        <a type='button' onClick={funcPlayAZ}><img id="img1" src={play} alt="Play" />
+                                        <a type='button' onClick={funcPlayAZ}><img className='pleer-img' id="img1" src={play} alt="Play" />
                                         </a>
                                     </div>
                                     <span className='play-wrapp__text'>&nbsp;&nbsp;&nbsp;Гимн Азербайджана</span>
                                 </div>
                                 <div className="col d-flex justify-content-center align-items-center">
                                     <div className="play-wrapp d-flex justify-content-center align-items-center">
-                                        <a onClick={funcPlayRF}><img id="img2" src={play} alt="Play" />
+                                        <a onClick={funcPlayRF}><img className='pleer-img' id="img2" src={play} alt="Play" />
                                         </a>
                                     </div>
                                     <span className='play-wrapp__text'>&nbsp;&nbsp;&nbsp;Гимн России</span>
@@ -65,7 +65,7 @@ const PleerTop = () => {
 
                                 <div className="col d-flex justify-content-center align-items-center">
                                     <div className="play-wrapp d-flex justify-content-center align-items-center">
-                                        <a onClick={funcPlayRT}><img id="img3" src={play} alt="Play" />
+                                        <a onClick={funcPlayRT}><img className='pleer-img' id="img3" src={play} alt="Play" />
                                         </a>
                                     </div>
                                     <span className='play-wrapp__text'>&nbsp;&nbsp;&nbsp;Гимн Татарстана</span>

@@ -10,7 +10,7 @@ import Boss from './Pages/Boss/Boss'
 import Contacts from './Pages/Contacts/Contacts'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './Pages/Main/Main';
-import GimnPage from './Pages/GimnPage/GimnPage';
+import AboutNews from './Pages/AboutNews/AboutNews';
 // import Main from './Pages/Main/Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,8 +24,7 @@ root.render(
           <Route path="/media" element={<Media/>} />
           <Route path="/boss" element={<Boss/>} />
           <Route path="/contacts" element={<Contacts/>} />
-          <Route path="/gimn" element={<GimnPage/>} />
-         
+          <Route path="/about-news" element={<AboutNews/>} />
         </Routes>
       </BrowserRouter>
 );

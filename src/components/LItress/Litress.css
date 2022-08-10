@@ -35,7 +35,9 @@
 a.wrapp-letress__books:hover .wrapp-litres_book-1 {
     box-shadow: 0px 0px 16px rgb(0 0 0 / 15%);
     }
-    @media (max-width: 575px) { 
+
+
+@media (max-width: 575px) { 
         .litress_aboutLitress {
             font-size: 33px ;
         }

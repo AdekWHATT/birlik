@@ -15,7 +15,7 @@ const Litress = () => {
                                     <span className='litress_aboutLitress'>О нас в литературе</span>
                                 </div>
                             </div>
-                            <div className='row litres_twoRow'>
+                            <div className='row g-5 litres_twoRow'>
                                 <div className='col-md-4'>
                                     <a href='#' className='wrapp-letress__books text-start'>
                                         <div className='wrapp-litres_book-1'>
