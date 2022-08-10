@@ -13,6 +13,11 @@ body {
     text-decoration: none;
 }
 .sec_gallery__link:hover {
+    color: #D51A1A;
+    text-decoration: none !important;
+}
+
+.sec_gallery__link:hover {
     text-decoration: underline;
 }
 .card-photogalery__text {

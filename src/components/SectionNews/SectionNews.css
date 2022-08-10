@@ -43,3 +43,6 @@
 .sec_news__all-new-link {
     text-decoration: none;
 }
+.sec_news__all-new-link:hover {
+    color: #D51A1A;
+}
