@@ -13,7 +13,6 @@ const Main = () => {
   return (
     <>
     <MainSections/>
-   
     <SectionManInfo/>
     <SectionNews/>
     <Litress/>

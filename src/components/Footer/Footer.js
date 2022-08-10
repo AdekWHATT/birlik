@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='col'>
                         <div className='container'>
                             <div className="row mt-4">
-                                <div class="col-md-6">
+                                <div class=" col-sm-12 col-lg-5">
                                     <div class="logo-wr d-flex">
                                         <a href='/'><img src={logo} alt="Бирлик" /></a>
 
@@ -20,7 +20,7 @@ const Footer = () => {
                                             Лениногорского района «Бирлик» (Единство)</span>
                                     </div>
                                 </div>
-                                <div class="col-md-6 align-self-center d-none d-sm-block">
+                                <div class="col-sm-12 col-lg-7 align-self-center d-none d-sm-block">
                                     <ul class="menu-list d-flex justify-content-between">
                                         <NavLink to='/diaspora'>
                                             <li>Диаспора</li>
@@ -43,13 +43,13 @@ const Footer = () => {
                                     <Outlet />
                                 </div>
                             </div>
-                            <hr/>
+                            <hr />
                             <div className='row'>
                                 <div className='col-lg-6 col-sm-12'>
                                     <span className='allr_text'>2022 © Все права защищены</span>
                                 </div>
                                 <div className='col-lg-6 col-sm-12 text-end'>
-                                   <Link to=""> <img src={bitru}/></Link>
+                                    <Link to=""> <img src={bitru} /></Link>
                                 </div>
                             </div>
                         </div>

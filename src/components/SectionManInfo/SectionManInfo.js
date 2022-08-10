@@ -14,7 +14,7 @@ const SectionManInfo = () => {
           <div class="col-lg-8 section_main-text">
             <div class="m-info-right_block px-3">
               <div class="m-info-right_top d-flex justify-content-center">
-                <img src={vert} alt="" />
+                <img className='d-none d-sm-block' src={vert} alt="" />
                 <span class="m-info-text px-4">Местная общественная организация Азербайджанская
                   национально – культурная автономия
                   города Лениногорск и Лениногорского района Республики Татарстан «Бирлик»

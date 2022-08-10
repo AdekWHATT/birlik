@@ -23,19 +23,19 @@ const funcPlayRT =() => {
     gimnRT.paused ? gimnRT.play() : gimnRT.pause()}
     return ( 
         <>
-            <div class="container-fluid pleer-wrap"> 
+            <div class="container-fluid pleer-wrap d-none d-sm-block"> 
                 <div className="row">
                     <div className="col-12">
                         <div className="container pleer-wrap__container">
                             <div className="row d-flex justify-content-between py-3">
-                                <div className="col-3 d-flex justify-content-center align-items-center">
+                                <div className="col d-flex justify-content-center align-items-center">
                                     <div className="play-wrapp d-flex justify-content-center align-items-center">
                                         <a type='button' onClick={funcPlayAZ}><img src={play} alt="Play" />
                                         </a>
                                     </div>
                                     <span className='play-wrapp__text'>&nbsp;&nbsp;&nbsp;Гимн Азербайджана</span>
                                 </div>
-                                <div className="col-3 d-flex justify-content-center align-items-center">
+                                <div className="col d-flex justify-content-center align-items-center">
                                     <div className="play-wrapp d-flex justify-content-center align-items-center">
                                         <a onClick={funcPlayRF}><img src={play} alt="Play" />
                                         </a>
@@ -43,7 +43,7 @@ const funcPlayRT =() => {
                                     <span className='play-wrapp__text'>&nbsp;&nbsp;&nbsp;Гимн России</span>
                                 </div>
 
-                                <div className="col-3 d-flex justify-content-center align-items-center">
+                                <div className="col d-flex justify-content-center align-items-center">
                                     <div className="play-wrapp d-flex justify-content-center align-items-center">
                                     <a onClick={funcPlayRT}><img src={play} alt="Play" />
                                         </a>

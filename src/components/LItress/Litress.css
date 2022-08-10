@@ -28,3 +28,7 @@
     font-size: 16px;
     font-weight: 500;
 }
+.wrapp-letress__books {
+    text-decoration: none;
+    color: black;
+}

@@ -17,33 +17,33 @@ const Litress = () => {
                             </div>
                             <div className='row litres_twoRow'>
                                 <div className='col-md-4'>
-                                    <div className='wrapp-letress__books text-start'>
+                                    <a href='#' className='wrapp-letress__books text-start'>
                                         <div className='wrapp-litres_book-1'>
                                             <img className='img-fluid' src={book1} />
                                         </div>
                                         <span className='litress-textBook'>Статья, посвященная МОО Азербайджанской НКА «Бирлик» в Республиканской книга о Лениногорске, его истории и жителях</span>
 
-                                    </div>
+                                    </a>
                                 </div>
 
                                 <div className='col-md-4'>
-                                    <div className='wrapp-letress__books text-start'>
+                                    <a className='wrapp-letress__books text-start'>
                                         <div className='wrapp-litres_book-1'>
                                             <img className='img-fluid' src={book2} />
                                         </div>
                                         <span className='litress-textBook'>Альбом, посвященный 10-летию МОО Азербайджанской НКА «Бирлик»
                                             </span>
-                                    </div>
+                                    </a>
                                 </div>
 
                                 <div className='col-md-4'>
-                                    <div className='wrapp-letress__books text-start'>
+                                    <a className='wrapp-letress__books text-start'>
                                         <div className='wrapp-litres_book-1'>
                                             <img className='img-fluid' src={book3} />
                                         </div>
                                         <span className='litress-textBook'>Азербайджан в годы Великой Отечественной войны
                                             </span>
-                                    </div>
+                                    </a>
                                 </div>
 
                             </div>

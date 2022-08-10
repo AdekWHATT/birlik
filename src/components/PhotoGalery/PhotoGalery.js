@@ -19,20 +19,20 @@ const PhotoGalery = () => {
                     </div>
                 </div>
                 <div className='row mt-5'>
-                    <div className='col-lg-4'>
+                    <div className='col'>
                         <div className='card-photogalery'>
                             <div className=''>
-                            <img className='img-fluid' src={image1} />
+                            <img className='' src={image1} />
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Делегация общественного объединения «Татарстан» посетила Лениногорск</span>
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col'>
                         <div className='card-photogalery'>
                         <div className=''>
-                            <img className='img-fluid' src={image2} />
+                            <img className='' src={image2} />
                             </div>
                             <div className='pt-3'>
                                
@@ -40,12 +40,12 @@ const PhotoGalery = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col'>
                         <div className='card-photogalery'>
                             <div className=''>
 
                            
-                            <img className='img-fluid' src={image3} />
+                            <img className='' src={image3} />
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Наша общая победа</span>

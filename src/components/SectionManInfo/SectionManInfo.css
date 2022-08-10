@@ -31,10 +31,10 @@
 /* Стили для средних экранов (дисплей максимум 991 пикселей) */
 @media (max-width: 991px) { 
     .m-info-text {
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     .m-info_top-block__text {
-        font-size: 12px !important;
+        font-size: 16px !important;
     }
     .section_main-img {
         display: flex;
@@ -52,5 +52,8 @@
 
 /* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
 @media (max-width: 575px) { 
-    
+    .m-info-text {
+        font-size: 12px ;
+        text-align: center;
+    }
  }

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3bd2104e.css",
+    "main.js": "/static/js/main.88286c10.js",
+    "static/media/gimnRT.mp3": "/static/media/gimnRT.0604a8392395b059f632.mp3",
+    "static/media/video2.svg": "/static/media/video2.4e367fe0870be2bbfe14c0d4eb408463.svg",
+    "static/media/video3.svg": "/static/media/video3.59570e9e50558214bfe5f91248dc568e.svg",
+    "static/media/video1.svg": "/static/media/video1.49bf25a7fdf8391398096c5d7cf9ce09.svg",
+    "static/media/image1.svg": "/static/media/image1.e212475bdd68301cb869c99bdefd8b14.svg",
+    "static/media/gimnRF.mp3": "/static/media/gimnRF.f1219c8185433879d2d8.mp3",
+    "static/media/gimnAZ.mp3": "/static/media/gimnAZ.a336d15a9aa4c1f5fba0.mp3",
+    "static/media/image3.svg": "/static/media/image3.524673a64a899419c8e2f3599c396515.svg",
+    "static/media/newssm4.svg": "/static/media/newssm4.cba7d04fed8f1e0d7ce8dc4d83fdd0a8.svg",
+    "static/media/newssm1.svg": "/static/media/newssm1.9795273da66efc11a64db80bcada201e.svg",
+    "static/media/image2.svg": "/static/media/image2.09bb119e9dd2299ce6962895bf54d0b2.svg",
+    "static/media/mpnew.svg": "/static/media/mpnew.3df0f2233ecfddf2acd916935c752250.svg",
+    "static/media/news-left.svg": "/static/media/news-left.a8357b892583f76a403b2266415f0d65.svg",
+    "static/media/newssm3.svg": "/static/media/newssm3.327b96ab0de1bc072a25a99a4f05e5d4.svg",
+    "static/media/newssm2.svg": "/static/media/newssm2.7fe8549aa10dd11245a2b39aa82285ce.svg",
+    "static/media/sodruz.svg": "/static/media/sodruz.d80ec0780e59fd0772b15d9b74ec8a6c.svg",
+    "static/media/logo.svg": "/static/media/logo.8ec2ef75e39f93831e066d1d6b987b44.svg",
+    "static/media/bg.webp": "/static/media/bg.474e4710e8cc0d11fc1c.webp",
+    "static/media/mamedov-r-1.webp": "/static/media/mamedov-r-1.8ce25c5b2fc5861834c4.webp",
+    "static/media/book1.webp": "/static/media/book1.cf2a255cc1c3d24086cc.webp",
+    "static/media/book3.webp": "/static/media/book3.a1b35ec64a32a8a2260f.webp",
+    "static/media/fly.svg": "/static/media/fly.b2f0ce9a6158add55c34f1dc7b70404a.svg",
+    "static/media/bitru.svg": "/static/media/bitru.17cbcaf6b33aa305269d1dd4b888c6d0.svg",
+    "static/media/book2.webp": "/static/media/book2.d0e29388c59d5a3d1070.webp",
+    "index.html": "/index.html",
+    "static/media/play.svg": "/static/media/play.ee7c66ffd01b38ceb613182fbe50ac52.svg",
+    "static/media/vert.svg": "/static/media/vert.f9bf7ed9e78507f02f6612eaa2d21c52.svg",
+    "main.3bd2104e.css.map": "/static/css/main.3bd2104e.css.map",
+    "main.88286c10.js.map": "/static/js/main.88286c10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bd2104e.css",
+    "static/js/main.88286c10.js"
+  ]
+}

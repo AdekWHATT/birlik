@@ -9,7 +9,7 @@
     background-color: white;
     color: black;
     bottom: 323px;
-    left: 400px;
+    left: calc(50% - 660px);
 }
 .yamaps-card__topText {
     font-size: 32px;
@@ -28,30 +28,34 @@
     color: black;
 }
 /* Стили для больших экранов (дисплей максимум 1199 пикселей) */
-@media (max-width: 1199px) {  }
+@media (max-width: 1199px) { 
+    .yamaps-card {
+        left: calc(50% - 472px);
+    }
+ }
 
 /* Стили для средних экранов (дисплей максимум 991 пикселей) */
-@media (max-width: 991px) {  }
+@media (max-width: 991px) { 
+    .yamaps-card {
+        left: calc(50% - 400px);
+    }
+ }
 
 /* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
 @media (max-width: 767px) { 
     .yamaps-card {
-        left: 177px;
+        left: calc(50% - 320px);
     }
  }
 
 /* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
 @media (max-width: 575px) {  
     .yamaps-card {
-        left: 40px;
+        left: calc(50% - 173px);
     }
 }
 
 @media (max-width: 419px) {  
-    .yamaps-card {
-        left: 10px;
-        width: 330px;
-        height: 280px;
-    }
+    
     
 }
