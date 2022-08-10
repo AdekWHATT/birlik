@@ -32,3 +32,6 @@
     text-decoration: none;
     color: black;
 }
+a.wrapp-letress__books:hover .wrapp-litres_book-1 {
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 15%);
+    }
