@@ -1,10 +1,11 @@
 import React from 'react'
 import './SectionNews.css'
-import newsleft from '../../images/mp-new.jpg'
+import newsleft from '../../images/mpnew.jpg'
 import newssm1 from '../../images/newssm1.svg'
 import newssm2 from '../../images/newssm2.svg'
 import newssm3 from '../../images/newssm3.svg'
 import newssm4 from '../../images/newssm4.svg'
+import { Link } from 'react-router-dom'
 
 const SectionNews = () => {
     return (
@@ -16,14 +17,14 @@ const SectionNews = () => {
                             <span className="sec_news__titleText">Новости</span>
                         </div>
                         <div className="sec_news__all-news">
-                            <a className='sec_news__all-new-link' href="#">Все новости > </a>
+                            <Link className='sec_news__all-new-link' to="/news">Все новости &raquo; </Link>
                         </div>
                     </div>
                 </div>
                 <div className="row mt-3 g-3">
                     <div className="col-md-5">
                         
-                            <div className="card card-my">
+                            <div className="card card-my-block">
                                 <img src={newsleft} className="card-img-top-g img-fluid" alt="..." />
                                 <div className="card-body">
                                     <span className="card-text news-top__left-title">Руководителю Азербайджанской

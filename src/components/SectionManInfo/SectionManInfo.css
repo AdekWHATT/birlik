@@ -31,7 +31,7 @@
 /* Стили для средних экранов (дисплей максимум 991 пикселей) */
 @media (max-width: 991px) { 
     .m-info-text {
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
     .m-info_top-block__text {
         font-size: 16px !important;

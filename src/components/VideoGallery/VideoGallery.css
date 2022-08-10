@@ -44,6 +44,6 @@
   /*XX-Large devices (larger desktops, 1400px and up)*/
  @media (min-width: 1400px) { 
     .img-play_images {
-    right: 65px;
+    right: 10px;
   
 }}

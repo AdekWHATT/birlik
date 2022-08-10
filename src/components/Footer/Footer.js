@@ -49,7 +49,7 @@ const Footer = () => {
                                     <span className='allr_text'>2022 © Все права защищены</span>
                                 </div>
                                 <div className='col-lg-6 col-sm-12 text-end'>
-                                    <Link to="https://bitru.ru/"> <img src={bitru} /></Link>
+                                    <a href="https://bitru.ru/"> <img src={bitru} target="_blank"/></a>
                                 </div>
                             </div>
                         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import MainSections from '../../components/MainSections/MainSections';
 import Footer from '../../components/Footer/Footer'
 import './NewsPage.css'
-import images from '../../images/mp-new.jpg'
+import images from '../../images/mpnew.jpg'
 const NewsPage = () => {
   return (
     <>

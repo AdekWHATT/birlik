@@ -1,5 +1,5 @@
 .menu-list a:hover {
-color: yellow;
+color: #D51A1A;
 }
 
 .navbar-container {
@@ -31,10 +31,6 @@ ul {
 }
 .m-info-right_block {
     
-}
-.m-info-text {
-    font-size: 20px;
-    font-weight: bold;
 }
 
 .m-info {

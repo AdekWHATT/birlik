@@ -3,7 +3,7 @@ import './PhotoGalery.css'
 import image1 from '../../images/gallery/image1.svg'
 import image2 from '../../images/gallery/image2.svg'
 import image3 from '../../images/gallery/image3.svg'
-
+import {Link} from 'react-router-dom';
 const PhotoGalery = () => {
     return (
         <>
@@ -14,40 +14,40 @@ const PhotoGalery = () => {
                             <span class="sec_news__titleText">Фотогалерея</span>
                         </div>
                         <div class="sec_gallery__link-box">
-                            <a className='sec_gallery__link' href="#">В раздел > </a>
+                            <Link className='sec_gallery__link' to="/media">В раздел &raquo; </Link>
                         </div>
                     </div>
                 </div>
-                <div className='row mt-4'>
-                    <div className='col'>
-                        <div className='card-photogalery'>
+                <div className='row d-flex mt-4'>
+                    <div className='col-lg-4'>
+                        <a href='#' className='card-photogalery'>
                             <div className=''>
-                            <img className='' src={image1} />
+                                <img className='w-100' src={image1} />
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Делегация общественного объединения «Татарстан» посетила Лениногорск</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div className='col'>
-                        <div className='card-photogalery'>
-                        <div className=''>
-                            <img className='' src={image2} />
+                    <div className='col-lg-4'>
+                        <a href='#' className='card-photogalery'>
+                            <div className=''>
+                                <img className='w-100' src={image2} />
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>В Лениногорске почтили память жертв ходжалинской трагедии</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div className='col'>
-                        <div className='card-photogalery'>
+                    <div className='col-lg-4'>
+                        <a href='#' className='card-photogalery'>
                             <div className=''>
-                            <img className='' src={image3} />
+                                <img className='w-100' src={image3} />
                             </div>
                             <div className='pt-3'>
                                 <span className='card-photogalery__text'>Наша общая победа</span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -55,4 +55,4 @@ const PhotoGalery = () => {
     )
 }
 
-export default PhotoGalery
+export default PhotoGalery;

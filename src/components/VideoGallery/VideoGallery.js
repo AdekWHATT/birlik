@@ -4,6 +4,7 @@ import video1 from '../../images/gallery/video1.svg';
 import video2 from '../../images/gallery/video2.svg';
 import video3 from '../../images/gallery/video3.svg';
 import playvideo from '../../images/play_video.svg';
+import {Link} from 'react-router-dom';
 const VideoGallery = () => {
     return (
         <>
@@ -14,7 +15,7 @@ const VideoGallery = () => {
                             <span class="sec_news__titleText">Видео</span>
                         </div>
                         <div class="sec_gallery__link-box">
-                            <a className='sec_gallery__link' href="#">В раздел > </a>
+                            <Link className='sec_gallery__link' to="/media">В раздел &raquo; </Link>
                         </div>
                     </div>
                 </div>
@@ -22,7 +23,7 @@ const VideoGallery = () => {
                     <div className='col-lg-4'>
                         <div className='card-photogalery'>
                             <div className='img-play_v'>
-                                <img className='img-fluid' src={video1} />
+                                <img className='w-100' src={video1} />
                                 <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
                             </div>
                             <div className='pt-3'>
@@ -34,7 +35,7 @@ const VideoGallery = () => {
                     <div className='col-lg-4'>
                         <div className='card-photogalery'>
                         <div className='img-play_v'>
-                            <img className='img-fluid' src={video2} />
+                            <img className='w-100' src={video2} />
                             <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
                             </div>
                             <div className='pt-3'>
@@ -46,7 +47,7 @@ const VideoGallery = () => {
                     <div className='col-lg-4'>
                         <div className='card-photogalery'>
                         <div className='img-play_v'>
-                            <img className='img-fluid' src={video3} />
+                            <img className='w-100' src={video3} />
                             <a  className='img-play_images'  href='#'><img src={playvideo} /></a>
                             </div>
                             <div className='pt-3'>
