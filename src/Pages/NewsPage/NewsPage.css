@@ -47,12 +47,8 @@
     margin-top: 100px;
 }
 
-.page-item:hover {
-    background: #0050B2;
-    border-radius: 5px;
-    color: #fff;
-    width: 36px;
-    height: 36px;
+.page-item:hover a.page-link {
+    text-decoration: underline;
 }
 
 .pagination li a.page-link{
