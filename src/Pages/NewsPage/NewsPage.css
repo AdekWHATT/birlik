@@ -1,25 +1,67 @@
 .card {
     border-radius: 0 !important;
-   
+
 }
+
 .card img {
     border-radius: 0 !important;
 }
+
 .news-page__title {
     color: black;
     font-size: 44px;
     font-weight: bold;
 }
+
 .news-page__text {
     font-size: 18px;
     font-weight: 400;
     color: black;
     font-weight: bold;
 }
+
 .news-page__footer-text {
     font-size: 16px;
     color: black;
 }
+
 .card {
     border-radius: none !important;
+}
+.span-pagination {
+    color: #0050B2;
+    font-weight: 600;
+}
+.page-link {
+    color: black;
+}
+.page-item + .active .page-link{
+    background: #0050B2;
+    border-radius: 5px;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+}
+.pagination-box {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.page-item:hover {
+    background: #0050B2;
+    border-radius: 5px;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+}
+
+.pagination li a.page-link{
+    border: none;
+    background-color: transparent;
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    letter-spacing: 1px;
+    margin: 0 10px 0 0;
+    transition: all 0.4s ease 0s;
 }

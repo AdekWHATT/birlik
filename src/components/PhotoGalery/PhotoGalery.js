@@ -3,7 +3,7 @@ import './PhotoGalery.css'
 import image1 from '../../images/gallery/image1.svg'
 import image2 from '../../images/gallery/image2.svg'
 import image3 from '../../images/gallery/image3.svg'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const PhotoGalery = () => {
     return (
         <>
@@ -19,8 +19,8 @@ const PhotoGalery = () => {
                     </div>
                 </div>
                 <div className='row d-flex mt-4'>
-                    <div className='col-lg-4'>
-                        <a href='#' className='card-photogalery'>
+                    <div className='col-lg-4 card-photogalery'>
+                        <a href='#' className=''>
                             <div className=''>
                                 <img className='w-100' src={image1} />
                             </div>
@@ -29,8 +29,8 @@ const PhotoGalery = () => {
                             </div>
                         </a>
                     </div>
-                    <div className='col-lg-4'>
-                        <a href='#' className='card-photogalery'>
+                    <div className='col-lg-4 card-photogalery'>
+                        <a href='#' className=''>
                             <div className=''>
                                 <img className='w-100' src={image2} />
                             </div>
@@ -39,8 +39,8 @@ const PhotoGalery = () => {
                             </div>
                         </a>
                     </div>
-                    <div className='col-lg-4'>
-                        <a href='#' className='card-photogalery'>
+                    <div className='col-lg-4 card-photogalery'>
+                        <a href='#' className=''>
                             <div className=''>
                                 <img className='w-100' src={image3} />
                             </div>

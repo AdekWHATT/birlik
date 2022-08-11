@@ -3,10 +3,8 @@ import './Navbar.css';
 import { NavLink, Link } from "react-router-dom";
 import logo from '../../images/logo.svg';
 import Dropdown from 'react-bootstrap/Dropdown';
-import menuburger from '../../images/menuburger.svg';
-import menuburger1 from '../../images/menu-burger.png';
-import menu from '../../images/menu.png';
-
+// import menu from '../../images/menu.png';
+import menu from '../../images/burger.png';
 const Navbar = () => {
   return (
     <>
@@ -14,8 +12,7 @@ const Navbar = () => {
         <div className="row">
           <div className="col-sm-12 col-lg-5">
             <div className="logo-wr d-flex">
-              <a href='/'><img className='img-md-fluid' src={logo} alt="Бирлик" /></a>
-
+              <Link to='/'><img className='img-md-fluid' src={logo} alt="Бирлик" /></Link>
               <span className="brand-wrapp__text align-self-center px-3">МОО Азербайджанская НКА<br />г.Лениногорск,Лениногорского района «Бирлик» (Единство)</span>
             </div>
           </div>
@@ -37,7 +34,6 @@ const Navbar = () => {
                 <li>Контакты</li>
               </NavLink>
             </ul>
-
           </div>
         </div>
       </div>
@@ -48,7 +44,7 @@ const Navbar = () => {
           <div className='col-12'>
             <Dropdown>
               <Dropdown.Toggle variant=''>
-               <img src={menu} width='50px' height='50px'/>
+                <img src={menu} width='40px' height='40px' />
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item><NavLink to='/diaspora'>
@@ -60,14 +56,12 @@ const Navbar = () => {
                 <Dropdown.Item><NavLink to='/news'>
                   <li>Новости</li>
                 </NavLink></Dropdown.Item>
-
                 <Dropdown.Item><NavLink to='/media'>
-                <li>Медиа</li>
-              </NavLink></Dropdown.Item>
-
+                  <li>Медиа</li>
+                </NavLink></Dropdown.Item>
                 <Dropdown.Item><NavLink to='/contacts'>
-                <li>Контакты</li>
-              </NavLink></Dropdown.Item>
+                  <li>Контакты</li>
+                </NavLink></Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </div>
@@ -82,10 +76,8 @@ const Navbar = () => {
             <span class="brand-wrapp__text align-self-center px-3">МОО Азербайджанская НКА г.Лениногорск,Лениногорского района «Бирлик» (Единство)</span>
           </div>
         </div>
-
       </div>
     </>
   )
-}
-
+};
 export default Navbar;

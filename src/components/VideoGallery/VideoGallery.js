@@ -20,8 +20,8 @@ const VideoGallery = () => {
                     </div>
                 </div>
                 <div className='row mt-5'>
-                    <div className='col-lg-4'>
-                        <a href='/' className='card-photogalery'>
+                    <div className='col-lg-4 video-photogalery'>
+                        <a href='/' className=''>
                             <div className='img-play_v'>
                                 <img className='w-100' src={video1} />
                                 <a className='img-play_images' href='#'><img src={playvideo} /></a>
@@ -32,8 +32,8 @@ const VideoGallery = () => {
                         </a>
                     </div>
 
-                    <div className='col-lg-4'>
-                        <a href='#' className='card-photogalery'>
+                    <div className='col-lg-4 video-photogalery' >
+                        <a href='#' className=''>
                             <div className='img-play_v'>
                                 <img className='w-100' src={video2} />
                                 <a className='img-play_images' href='#'><img src={playvideo} /></a>
@@ -44,8 +44,8 @@ const VideoGallery = () => {
                         </a>
                     </div>
 
-                    <div className='col-lg-4'>
-                        <a href='#' className='card-photogalery'>
+                    <div className='col-lg-4 video-photogalery'>
+                        <a href='#' className=''>
                             <div className='img-play_v'>
                                 <img className='w-100' src={video3} />
                                 <a className='img-play_images' href='#'><img src={playvideo} /></a>

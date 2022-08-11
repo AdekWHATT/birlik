@@ -1,0 +1,54 @@
+.about-news_detail_heading {
+    font-size: 36px;
+    font-weight: 500;
+
+}
+.about-news_detail_text {
+    font-size: 16px;
+}
+.about-news_detail_bottom-widget {
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-news_detail__card-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+.about-news_detail__card-text {
+    font-size: 14px;
+    color: #76767A;
+}
+
+.about-news__hr {
+background-color: #D9D9DE ;
+height: 2px;
+}
+.about-news__card-wrapper {
+    text-decoration: none;
+}
+.about-news__card-wrapper:hover {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+/* Стили для больших экранов (дисплей максимум 1199 пикселей) */
+@media (max-width: 1199px) {
+    
+ }
+
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) { 
+    .about-news_detail_heading {
+        font-size: 23px;
+    }
+ }
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) { 
+    .about-news_detail_heading {
+        font-size: 23px;
+    }
+ }
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) { 
+    
+ }

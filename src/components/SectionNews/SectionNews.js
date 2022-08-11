@@ -24,7 +24,7 @@ const SectionNews = () => {
                 <div className="row mt-3 g-3">
                     <div className="col-md-5">
                         
-                            <a href='/news-total' className="card card-my-block">
+                            <a href='/about-news' className="card card-my-block">
                                 <img src={newsleft} className="card-img-top-g img-fluid" alt="..." />
                                 <div className="card-body">
                                     <span className="card-text news-top__left-title">Руководителю Азербайджанской
@@ -42,7 +42,7 @@ const SectionNews = () => {
                     <div className="col-md-7">
                         <div className="row row-cols-2 g-3">
                             <div className="col">
-                                <a href='#' className="card h-100">
+                                <a href='/about-news' className="card card-my-block h-100">
                                     <img src={newssm1} className="card-img-top h-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title-sm">Представители КС МААР Рамиль Алиев и Гасым Керимов
@@ -54,7 +54,7 @@ const SectionNews = () => {
                                 </a>
                             </div>
                             <div className="col">
-                                <a href='#' className="card h-100">
+                                <a href='/about-news' className="card card-my-block h-100">
                                     <img src={newssm2} className="card-img-top" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title-sm">Рамизу Мамедову вручено Благодарственное письмо от
@@ -65,7 +65,7 @@ const SectionNews = () => {
                                 </a>
                             </div>
                             <div className="col">
-                                <a href='#' className="card h-100">
+                                <a href='/about-news' className="card card-my-block h-100">
                                     <img src={newssm3} className="card-img-top" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title-sm">Обращение консультативного Совета «МААР» президенту
@@ -75,7 +75,7 @@ const SectionNews = () => {
                                 </a>
                             </div>
                             <div className="col">
-                                <a href='#' className="card h-100">
+                                <a href='/about-news' className="card card-my-block h-100">
                                     <img src={newssm4} className="card-img-top" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title-sm">Рабочая поездка Президента Республики Татарстан Р.Н.
