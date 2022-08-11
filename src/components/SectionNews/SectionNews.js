@@ -24,7 +24,7 @@ const SectionNews = () => {
                 <div className="row mt-3 g-3">
                     <div className="col-md-5">
                         
-                            <a href='/about-news' className="card card-my-block">
+                            <Link to='/about-news' className="card card-my-block">
                                 <img src={newsleft} className="card-img-top-g img-fluid" alt="..." />
                                 <div className="card-body">
                                     <span className="card-text news-top__left-title">Руководителю Азербайджанской
@@ -36,7 +36,7 @@ const SectionNews = () => {
                                         вручено...</p>
                                     <p className="card-text text-end"><small class="text-muted">03.07.2022</small></p>
                                 </div>
-                            </a>
+                            </Link>
                         
                     </div>
                     <div className="col-md-7">
